@@ -1,0 +1,25 @@
+<script>
+
+var nome,salario,aumento,novoSalario;
+		
+//entrada
+nome= prompt("Digite o seu nome: ");
+salario= parseFloat(prompt("Digite o seu salário: "));
+	
+
+//processamento
+if (salario>=5000)
+{
+
+aumento = salario * 5/100
+
+}
+else 
+{
+aumento = salario * 10/100
+			
+}
+novoSalario = salario+aumento
+alert ("Funcionário: "+nome+"\nSalário atual:" +salario + "\nSalário com aumento: "+novoSalario) 
+
+</script>

@@ -1,0 +1,33 @@
+<script>
+
+ var n1,n2,n3,nome,resultado,media;
+//entrada de dados
+
+nome= prompt("Digite o seu nome--> ");
+n1= parseFloat(prompt("Digite a 1ª nota--> "));
+n2= parseFloat(prompt("Digite a 2ª nota--> "));
+n3= parseFloat(prompt("Digite a 3ª nota--> "));
+	
+//processamento
+
+media = (n1+n2+n3)/3;
+media=media.toFixed(1);
+
+//verificando se o aluno foi aprovado ou não
+//aprovado: media >=7
+//composto
+
+if (media>=7)
+{
+resultado="aprovado";
+}
+else 
+{
+resultado="reprovado";
+}
+
+//saída
+alert (nome+" teve a média "+media+" e foi "+resultado);
+//fim da saida.
+
+</script>

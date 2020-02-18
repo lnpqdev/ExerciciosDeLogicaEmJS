@@ -1,0 +1,30 @@
+<script>
+
+var salario,contador,totals,media;
+
+
+totals=contador=0;
+
+
+while (contador<5)
+{
+
+salario=parseFloat(prompt("Qual o Salário? "))
+totals+=salario;
+contador++;
+}
+if (contador>0 && contador !=1)
+{
+    media = totals/contador;
+}
+else{
+    alert("Impossível dividir por zero");
+}
+
+
+
+
+
+
+
+</script>
